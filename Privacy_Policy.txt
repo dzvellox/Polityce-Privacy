@@ -1,0 +1,348 @@
+1. Responsable du traitement
+Éditeur / Responsable du traitement :
+[Votre prénom et nom] (ou, si vous êtes mineur, [Nom du représentant légal])
+
+Coordonnées :
+
+Adresse e-mail : dzvellox@gmail.com
+
+Adresse postale : [Votre adresse ou celle du représentant légal]
+
+2. Données collectées
+Nous collectons différentes catégories de données, selon votre utilisation de l’Application :
+
+Données d’authentification et d’identité
+
+Adresse e-mail
+
+Identifiant unique généré par Firebase Authentication (UID)
+
+Nom d’affichage (le cas échéant)
+
+Mot de passe (stocké de manière sécurisée par Firebase)
+
+Données techniques et d’utilisation
+
+Adresse IP (pour estimer votre pays via l’API ipwho.is)
+
+Type, version et modèle d’appareil (Android, iOS)
+
+Système d’exploitation et version (Android 11, iOS 15, etc.)
+
+Identifiant publicitaire (IDFA/GAID), utilisé pour la diffusion et l’optimisation des publicités (AdMob)
+
+Horodatages de connexion, journaux d’erreur et de plantage
+
+Nombre de publicités visionnées, pages visitées et interactions dans l’Application
+
+Données de localisation « approximative » uniquement via l’IP (aucune géolocalisation GPS n’est collectée)
+
+Données de paiement
+
+Adresse e-mail PayPal (uniquement si vous demandez un virement de récompense)
+
+Montant et historique des transactions liées aux récompenses
+
+Données stockées sur Supabase et Firebase Cloud Firestore
+
+Historique des crédits et récompenses
+
+Informations liées au parrainage (ID du parrain, code de parrainage utilisé)
+
+Statistiques d’usage (nombre de vues, fréquence d’utilisation)
+
+3. Finalités du traitement
+Nous utilisons ces données pour :
+
+Création et gestion de compte
+
+Authentifier l’Utilisateur via Firebase Authentication.
+
+Vérifier l’unicité du compte (éviter les multi-comptes non autorisés).
+
+Fonctionnement de l’Application
+
+Assurer la connexion sécurisée et la personnalisation de l’expérience (affichage du solde, historique des récompenses).
+
+Calculer et attribuer les crédits ou récompenses en fonction du nombre de publicités visionnées ou d’autres actions validées.
+
+Estimer votre pays afin d’afficher des offres ou tarifs adaptés (via l’API ipwho.is).
+
+Affichage et optimisation des publicités
+
+Diffuser des annonces pertinentes grâce à Google AdMob et son réseau de partenaires (Unity Ads, etc.).
+
+Collecter des données techniques (identifiant publicitaire, informations sur l’appareil) pour optimiser la monétisation et mesurer la performance des annonces.
+
+Respecter vos choix de consentement concernant la publicité personnalisée (voir section « Consentement et cookies »).
+
+Gestion des paiements
+
+Effectuer des virements PayPal aux Utilisateurs sous réserve du respect des conditions (montant minimum, vérification, etc.).
+
+Conserver temporairement votre adresse PayPal afin de réaliser le virement.
+
+Conserver l’historique des paiements pour des obligations comptables ou légales.
+
+Assistance, support et prévention de la fraude
+
+Répondre à vos demandes de support via l’adresse e-mail de contact.
+
+Détecter et prévenir les comportements frauduleux (multi-comptes, altération des données, scripts, etc.).
+
+Amélioration du service et analyses statistiques
+
+Réaliser des analyses agrégées et anonymisées pour optimiser l’ergonomie de l’Application.
+
+Statistiques sur le nombre d’utilisateurs, fréquence d’utilisation, taux de conversion des publicités, etc.
+
+4. Bases légales
+Consentement : pour l’affichage de publicités personnalisées (AdMob) et la collecte de données de localisation approximative (IP).
+
+Exécution du contrat : pour fournir l’accès à l’Application, gérer votre compte et vous verser d’éventuelles récompenses.
+
+Respect d’une obligation légale : conservation des données de paiement et des journaux de transactions pour la durée imposée par la législation.
+
+Intérêt légitime : prévention des fraudes, amélioration et sécurité de l’Application.
+
+5. Partage et transfert des données
+Prestataires de services (sous-traitants)
+Nous ne partageons vos données qu’avec les prestataires nécessaires au fonctionnement de l’Application :
+
+Firebase (Google LLC) : hébergement, authentification, base de données Cloud Firestore, stockage latent.
+
+Supabase : hébergement et traitement de certaines données (statistiques, sauvegarde).
+
+Google AdMob et réseaux partenaires (Unity Ads, etc.) : diffusion d’annonces et optimisation publicitaire.
+
+ipwho.is : estimation de localisation par adresse IP.
+
+PayPal (PayPal, Inc.) : exécution des virements de récompenses.
+
+Chacun de ces prestataires agit en tant que sous-traitant et traite vos données uniquement selon nos instructions et leurs propres politiques de confidentialité :
+
+Firebase : https://policies.google.com/privacy
+
+Supabase : https://supabase.com/privacy
+
+AdMob : https://policies.google.com/privacy et https://developers.google.com/admob/terms
+
+ipwho.is : https://ipwhois.io/privacy
+
+PayPal : https://www.paypal.com/fr/webapps/mpp/ua/privacy-full
+
+Tiers autorisés
+Nous ne vendons ni ne louons vos données à des tiers à des fins commerciales. Toutefois, dans les cas suivants, vos données pourront être communiquées :
+
+Obligations légales et judiciaire : si la loi l’exige (plainte, réquisition judiciaire, demande émanant d’une autorité compétente).
+
+Protection des droits : pour faire valoir nos droits ou défendre notre responsabilité en cas de litige (harcèlement, fraude, contrefaçon, etc.).
+
+6. Durée de conservation
+Nous conservons vos données uniquement le temps nécessaire aux finalités exposées ou pour respecter nos obligations légales :
+
+Catégorie de données	Durée de conservation
+Données d’authentification (Firebase Auth)	Tant que le compte est actif + 2 ans après suppression du compte.
+Données d’utilisation (publicités, vues, logs)	Conservées pendant 3 ans à compter de la dernière interaction.
+Adresse IP (pour géolocalisation approximative)	Conservée 6 mois, puis anonymisée ou supprimée.
+Données de paiement (PayPal)	Conservées 5 ans (durée légale de conservation comptable), puis supprimées ou anonymisées.
+Données agrégées / anonymisées	Conservées indéfiniment pour analyses statistiques (aucun lien direct avec une personne identifiable).
+
+7. Cookies et technologies similaires
+Cookies et trackers publicitaires
+
+L’Application intègre le SDK Google AdMob, qui utilise des cookies et/ou des identifiants publicitaires (IDFA/GAID) pour diffuser et personnaliser les annonces.
+
+AdMob et ses partenaires (Unity Ads, etc.) peuvent collecter des données techniques (identifiant publicitaire, informations sur l’appareil) afin de proposer des annonces ciblées.
+
+Gestion du consentement
+
+À la première ouverture de l’Application, un écran de consentement s’affiche pour vous permettre d’accepter ou de refuser la publicité personnalisée.
+
+Si vous refusez, seules des publicités non personnalisées (ciblées sur le contexte, mais non basées sur votre profil) pourront vous être affichées.
+
+Vous pouvez modifier votre choix à tout moment depuis les paramètres de l’Application ou en réinitialisant l’identifiant publicitaire de votre appareil.
+
+Cookies fonctionnels (nécessaires)
+
+Certains cookies ou identifiants techniques sont nécessaires pour garantir le bon fonctionnement de l’Application (se souvenir de votre session, gérer votre panier de récompenses, etc.).
+
+Vous ne pouvez pas refuser ces cookies fonctionnels sans altérer certaines fonctionnalités essentielles de l’Application.
+
+8. Sécurité et confidentialité
+Nous mettons en œuvre des mesures techniques et organisationnelles adaptées pour garantir la confidentialité, l’intégrité et la disponibilité de vos données :
+
+Chiffrement des données en transit (TLS/HTTPS) et au repos (AES-256 chez nos prestataires).
+
+Accès restreint aux données : seuls les employés ou prestataires formés et habilités peuvent accéder aux informations personnelles.
+
+Sauvegardes régulières pour prévenir toute perte accidentelle.
+
+Malgré ces mesures, aucun système n’est infaillible ; en cas de violation de données (incident de sécurité), nous nous engageons à :
+
+Notifier l’autorité de contrôle compétente (CNIL pour la France) dans un délai de 72 heures, si nécessaire.
+
+Informer les Utilisateurs concernés dans les meilleurs délais, conformément à la réglementation.
+
+9. Droits des personnes concernées
+Conformément au Règlement Général sur la Protection des Données (RGPD), à la Loi Informatique et Libertés (France) et au California Consumer Privacy Act (CCPA), vous disposez des droits suivants :
+
+Droit d’accès
+
+Vous pouvez obtenir la confirmation que des données vous concernant sont traitées et obtenir une copie de ces données.
+
+Droit de rectification
+
+Vous pouvez demander la correction de données inexactes ou incomplètes.
+
+Droit à l’effacement (« droit à l’oubli »)
+
+Vous pouvez demander la suppression des données vous concernant, sauf si leur conservation est imposée par la loi (ex. : obligations comptables).
+
+Droit à la limitation du traitement
+
+Vous pouvez demander que le traitement de vos données soit limité (conservation uniquement).
+
+Droit à la portabilité
+
+Vous pouvez recevoir vos données dans un format structuré, couramment utilisé et lisible par machine, ou demander le transfert à un autre responsable de traitement lorsque cela est techniquement possible.
+
+Droit d’opposition
+
+Vous pouvez vous opposer, à tout moment, à un traitement basé sur l’intérêt légitime (ex. : profilage), ou pour des raisons tenant à votre situation particulière.
+
+Vous pouvez également vous opposer au traitement à des fins de prospection (publicités personnalisées).
+
+Droit de retirer votre consentement
+
+Lorsque le traitement est basé sur votre consentement (publicité personnalisée, géolocalisation approximative), vous pouvez retirer ce consentement à tout moment. Le retrait n’affecte pas la licéité du traitement antérieur.
+
+Droit de définir des directives post-mortem (le cas échéant)
+
+Vous pouvez indiquer des instructions quant au sort de vos données après votre décès.
+
+Droit d’introduire une réclamation auprès d’une autorité de contrôle
+
+En France : CNIL (www.cnil.fr).
+
+En Californie : California Attorney General (https://oag.ca.gov/privacy/ccpa).
+
+9.1. Modalités d’exercice des droits
+Pour exercer vos droits, veuillez nous contacter :
+
+Par e-mail : dzvellox@gmail.com
+
+Par courrier postal : [Votre adresse ou celle du représentant légal]
+
+Merci de préciser :
+
+Votre identité (nom, prénom, adresse e-mail utilisée dans l’Application).
+
+Le droit que vous souhaitez exercer (accès, rectification, suppression, etc.).
+
+Tout justificatif d’identité si nécessaire (une copie de pièce d’identité, uniquement si la loi l’exige pour vérification).
+
+Nous répondrons à votre demande dans un délai d’un mois maximum (conformément au RGPD). Ce délai peut être prolongé de deux mois supplémentaires si la complexité de la demande ou le nombre de demandes le justifie. Vous serez informé(e) de toute prolongation nécessaire.
+
+10. Transfert de données hors de l’Union européenne
+Les services tiers que nous utilisons (Firebase / Google, Supabase, AdMob, PayPal, ipwho.is) peuvent héberger ou traiter vos données en dehors de l’Espace économique européen (EEE).
+
+Google (Firebase, AdMob) : Google LLC transfère des données au sein de ses centres de données situés aux États-Unis. Ces transferts sont couverts par les « Standard Contractual Clauses » (Clauses Contractuelles Types) approuvées par la Commission européenne.
+
+Supabase : héberge principalement en Europe (AWS ou DigitalOcean), mais peut transférer des données hors EEE selon ses sous-traitants. Supabase applique également les Clauses Contractuelles Types lorsque nécessaire.
+
+PayPal : utilise des serveurs aux États-Unis. PayPal se conforme au Privacy Shield et/ou aux Clauses Contractuelles Types.
+
+ipwho.is : traite les requêtes sur des serveurs situés hors EEE. Les engagements de sécurité et de confidentialité sont précisés dans leur politique.
+
+En utilisant l’Application, vous acceptez ces transferts internationaux. Vous pouvez obtenir une copie des mesures de protection mises en place par ces prestataires en les contactant ou en consultant les liens vers leurs politiques (voir section 5).
+
+11. Protection des mineurs
+L’Application est accessible à toute personne de tout âge. Cependant, la création d’un compte et la participation au système de récompenses nécessitent d’avoir l’âge légal pour conclure un contrat (16 ans en France, ou plus selon la législation locale).
+
+Si vous êtes mineur, vous devez obtenir l’autorisation de votre représentant légal avant de fournir des données personnelles.
+
+Nous ne collectons pas sciemment de données personnelles d’enfants de moins de 13 ans (ou l’âge minimum applicable selon votre pays). Si nous apprenons qu’un mineur a fourni des données sans consentement parental, nous supprimerons ces données dès que possible.
+
+12. Cookies et traceurs techniques
+Bien que l’Application soit une application mobile (et non un site web), plusieurs SDK intégrés utilisent des technologies équivalentes aux cookies pour stocker des informations :
+
+SDK Google AdMob : utilise des identifiants publicitaires (IDFA pour iOS, GAID pour Android) pour diffuser et mesurer la performance des annonces.
+
+Firebase Analytics (si activé) : peut utiliser des identifiants pour analyser l’usage et générer des rapports statistiques.
+
+Supabase (si cookies web ou SDK web utilisés dans des pages embarquées) : utilise des cookies pour maintenir la session côté web.
+
+ipwho.is : ne dépose pas de cookie sur votre appareil, mais collecte uniquement l’IP de votre requête.
+
+Vous pouvez gérer votre consentement à la publicité personnalisée dans les paramètres de l’Application ou en réinitialisant votre identifiant publicitaire via les réglages de votre appareil. Les cookies fonctionnels nécessaires au bon fonctionnement de l’Application ne peuvent pas être désactivés sans altérer certaines fonctionnalités.
+
+13. Sécurité des données
+Nous mettons en place des mesures techniques et organisationnelles raisonnables pour protéger vos données :
+
+Chiffrement TLS/HTTPS pour toute communication avec les serveurs.
+
+Accès restreint aux données : seules les personnes habilitées (employés, prestataires) peuvent y accéder, et ce, sur la base du principe du « besoin de savoir ».
+
+Sauvegardes régulières des bases de données.
+
+Mises à jour de sécurité fréquentes pour corriger toute vulnérabilité signalée.
+
+Cependant, aucune transmission de données sur Internet ou méthode de stockage n’est 100 % sûre. Si nous prenons connaissance d’une faille de sécurité susceptible d’affecter vos données personnelles, nous informerons les autorités compétentes et les Utilisateurs concernés dans les meilleurs délais (conformément au RGPD).
+
+14. Modifications de la Politique de confidentialité
+Nous nous réservons le droit de modifier cette Politique de confidentialité à tout moment.
+
+Notification des changements : toute mise à jour significative sera signalée dans l’Application (bannière ou pop-up) et la date de « Dernière mise à jour » sera ajustée.
+
+Entrée en vigueur : les nouvelles dispositions prendront effet 7 jours après leur publication dans l’Application, sauf urgence légale ou réglementaire.
+
+Si vous ne souhaitez pas accepter ces changements, vous devez cesser d’utiliser l’Application avant leur entrée en vigueur.
+
+15. Liens vers les politiques des services tiers
+Pour plus d’informations sur la façon dont les prestataires traitent vos données, vous pouvez consulter directement leurs documents officiels :
+
+Firebase (Google LLC)
+
+Politique de confidentialité : https://policies.google.com/privacy
+
+Conditions d’utilisation : https://firebase.google.com/terms
+
+Supabase
+
+Politique de confidentialité : https://supabase.com/privacy
+
+Conditions d’utilisation : https://supabase.com/terms
+
+Google AdMob
+
+Politique de confidentialité : https://policies.google.com/privacy
+
+Conditions d’utilisation d’AdMob : https://developers.google.com/admob/terms
+
+ipwho.is
+
+Politique de confidentialité : https://ipwhois.io/privacy
+
+Conditions d’utilisation : https://ipwhois.io/terms/
+
+PayPal, Inc.
+
+Politique de confidentialité : https://www.paypal.com/fr/webapps/mpp/ua/privacy-full
+
+Conditions d’utilisation : https://www.paypal.com/uk/webapps/mpp/ua/useragreement-full
+
+16. Contact et réclamations
+Pour toute question, demande d’exercice de vos droits (accès, rectification, suppression, etc.) ou réclamation :
+
+Par e-mail : dzvellox@gmail.com
+
+Par courrier postal : [Votre adresse ou celle du représentant légal]
+
+Si, après nous avoir contactés, vous estimez que vos droits ne sont pas respectés, vous pouvez adresser une réclamation à l’autorité compétente :
+
+En France : Commission Nationale de l’Informatique et des Libertés (CNIL), https://www.cnil.fr
+
+En Californie (CCPA) : California Attorney General, https://oag.ca.gov/privacy/ccpa
+
+En utilisant [Nom de votre application], vous consentez à la collecte, à l’utilisation et au traitement de vos données personnelles comme décrit dans la présente Politique de confidentialité.
