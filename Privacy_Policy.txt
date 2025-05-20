@@ -1,12 +1,11 @@
 1. Responsable du traitement
 Éditeur / Responsable du traitement :
-[Votre prénom et nom] (ou, si vous êtes mineur, [Nom du représentant légal])
+Darkzvellox
 
 Coordonnées :
 
 Adresse e-mail : dzvellox@gmail.com
 
-Adresse postale : [Votre adresse ou celle du représentant légal]
 
 2. Données collectées
 Nous collectons différentes catégories de données, selon votre utilisation de l’Application :
@@ -232,8 +231,6 @@ Pour exercer vos droits, veuillez nous contacter :
 
 Par e-mail : dzvellox@gmail.com
 
-Par courrier postal : [Votre adresse ou celle du représentant légal]
-
 Merci de préciser :
 
 Votre identité (nom, prénom, adresse e-mail utilisée dans l’Application).
@@ -337,12 +334,10 @@ Pour toute question, demande d’exercice de vos droits (accès, rectification, 
 
 Par e-mail : dzvellox@gmail.com
 
-Par courrier postal : [Votre adresse ou celle du représentant légal]
-
 Si, après nous avoir contactés, vous estimez que vos droits ne sont pas respectés, vous pouvez adresser une réclamation à l’autorité compétente :
 
 En France : Commission Nationale de l’Informatique et des Libertés (CNIL), https://www.cnil.fr
 
 En Californie (CCPA) : California Attorney General, https://oag.ca.gov/privacy/ccpa
 
-En utilisant [Nom de votre application], vous consentez à la collecte, à l’utilisation et au traitement de vos données personnelles comme décrit dans la présente Politique de confidentialité.
+En utilisant Earn Money, vous consentez à la collecte, à l’utilisation et au traitement de vos données personnelles comme décrit dans la présente Politique de confidentialité.
